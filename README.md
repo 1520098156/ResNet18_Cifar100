@@ -244,7 +244,7 @@ plt.show()
 
 ![请添加图片描述](https://img-blog.csdnimg.cn/92cf851a6bce4de28ccbf1809a4de3b5.png)  
 
-使用opencv绘制预测训练集时的预测结果可视化（图片很大，仅截取部分，完整大图详见test_visualisation.png）：
+使用opencv绘制预测训练集时的预测结果可视化（图片很大，仅截取部分，完整大图运行下方代码后详见test_visualisation.png）：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/7dd92c555cf0428ab53ac4aaae815f67.png)  
 
 绘图代码如下:
