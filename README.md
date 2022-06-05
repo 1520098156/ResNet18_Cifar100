@@ -190,7 +190,7 @@ model.fit()方法用于执行训练过程，训练数据由ImageDataGenerator生
 model.save('saved_model/my_model')
 ```
 ## 模型测试
-
+请先训练模型得到训练后的模型才能进行模型测试，我自己训练好的模型大小太大了，传不上来。
 ```python
 my_model = tf.keras.models.load_model('saved_model/my_model', custom_objects={'myLoss': myLoss})
 
