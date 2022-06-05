@@ -3,6 +3,9 @@
 本次作业旨在利用ResNet18实现对于Cifar-100数据集进行图像识别按照精细类进行分类。
 Cifar-100数据集由20个粗类和100个细类组成，每个粗类包含5个细类，每个细类有500张训练图片和100张测试图片。
 残差神经网络(ResNet)是由微软研究院的何恺明、张祥雨、任少卿、孙剑等人提出的。ResNet 在2015 年的ILSVRC（ImageNet Large Scale Visual Recognition Challenge）中取得了冠军。
+
+## CSDN链接
+https://blog.csdn.net/aa1520098156/article/details/125130782?spm=1001.2014.3001.5502
 ## 网络模型
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/06d03a64db894423b6f4e15c128ab0a3.png)
 ResNet18由1个卷积层，8个残差块和1个全连接层组成，其中在全连接层前做的是平均池化，而不是最大值池化。
@@ -241,7 +244,7 @@ plt.show()
 
 ![请添加图片描述](https://img-blog.csdnimg.cn/92cf851a6bce4de28ccbf1809a4de3b5.png)  
 
-使用opencv绘制预测训练集时的预测结果可视化（图片很大，仅截取部分）：
+使用opencv绘制预测训练集时的预测结果可视化（图片很大，仅截取部分，完整大图详见test_visualisation.png）：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/7dd92c555cf0428ab53ac4aaae815f67.png)  
 
 绘图代码如下:
